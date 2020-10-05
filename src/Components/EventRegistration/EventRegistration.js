@@ -60,11 +60,11 @@ const EventRegistration = () => {
                         </div>
 
                         <div className="form-group">
-                            <input type="date" className="form-control" placeholder="Date" id="date"/>
+                            <input type="date" className="form-control" placeholder="Date" id="date" required/>
                         </div>
 
                         <div className="form-group">
-                            <input type="text" className="form-control" placeholder="Description" id="description"/>
+                            <input type="text" className="form-control" placeholder="Description" id="description" required/>
                         </div>
 
                         <div className="form-group">

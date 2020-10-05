@@ -73,14 +73,14 @@ const AddEvent = () => {
                     <div className="col-md-6 float-left">
                         <div className="form-group">
                             <label htmlFor="title">Event Title</label>
-                            <input type="text" name="title" placeholder="Event Title" className="form-control" id="title"/>
+                            <input type="text" name="title" placeholder="Event Title" className="form-control" id="title" required/>
                         </div>
                     </div>
 
                     <div className="col-md-6 float-left">
                         <div className="form-group">
                             <label htmlFor="date">Event Date</label>
-                            <input type="date" name="date" placeholder="Event Date" className="form-control" id="date"/>
+                            <input type="date" name="date" placeholder="Event Date" className="form-control" id="date" required/>
                         </div>
                     </div>
 
